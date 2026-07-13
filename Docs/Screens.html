@@ -1,0 +1,31 @@
+<!DOCTYPE html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Second UI Screens</title>
+<style>
+body{margin:0;background:#eef2f7;font-family:-apple-system,BlinkMacSystemFont,Arial}
+h1{text-align:center;color:#23395D}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:24px;padding:24px}
+.phone{width:330px;height:700px;background:#111;border-radius:40px;padding:10px;margin:auto;box-shadow:0 20px 40px rgba(0,0,0,.25)}
+.screen{background:#FAFAF7;height:100%;border-radius:30px;display:flex;flex-direction:column;overflow:hidden}
+.notch{width:120px;height:22px;background:#000;border-radius:20px;margin:8px auto}
+.header{padding:18px;font-size:22px;font-weight:bold;color:#23395D}
+.card{background:#fff;margin:10px 16px;padding:14px;border-radius:16px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.bottom{margin-top:auto;display:flex;justify-content:space-around;padding:14px;background:#fff;border-top:1px solid #ddd}
+.button{margin:16px;background:#23395D;color:#fff;text-align:center;padding:12px;border-radius:12px}
+.search{margin:16px;background:#fff;padding:12px;border-radius:12px;color:#999}
+.calendar{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;padding:0 16px}
+.day{background:#fff;height:50px;border-radius:8px;font-size:11px;text-align:center;padding-top:6px}
+.event{background:#d8ebff;border-radius:4px;font-size:8px;margin:2px;padding:2px}
+.small{font-size:12px;color:#666}
+</style></head><body>
+<h1>Second – UI Screen Concepts</h1>
+<div class='grid'>
+<div class='phone'><div class='screen'><div class='notch'></div><div style='display:flex;flex:1;justify-content:center;align-items:center;flex-direction:column'><div style='font-size:72px;color:#23395D;font-weight:bold'>2</div><h2>Second</h2><p>Your Operational Counterpart</p></div></div></div>
+<div class='phone'><div class='screen'><div class='notch'></div><div class='header'>Good Morning</div><div class='card'>☕ Coffee with Sarah<br><span class='small'>6 PM</span></div><div class='card'>💳 Netflix renews tomorrow</div><div class='card'>📥 3 items waiting</div><div class='bottom'>🏠 📥 🔍 👤</div></div></div>
+<div class='phone'><div class='screen'><div class='notch'></div><div class='header'>Inbox</div><div class='card'>💬 Coffee with Sarah<br><span class='small'>Meeting detected</span></div><div class='card'>📧 Netflix<br><span class='small'>Subscription detected</span></div><div class='card'>🖼 Concert Ticket</div><div class='button'>Review Selected</div><div class='bottom'>🏠 📥 🔍 👤</div></div></div>
+<div class='phone'><div class='screen'><div class='notch'></div><div class='header'>Review Item</div><div class='card'><b>Meeting Detected</b><br>Friday<br>6 PM<br>Third Wave Coffee</div><div class='card'>◉ Calendar<br>○ Reminder<br>○ Memory</div><div class='button'>Save</div></div></div>
+<div class='phone'><div class='screen'><div class='notch'></div><div class='header'>Calendar</div><div class='calendar'><div class='day'>11</div><div class='day'>12</div><div class='day'>13</div><div class='day'>14</div><div class='day'>15<div class='event'>Coffee</div><div class='event'>Netflix</div></div><div class='day'>16</div><div class='day'>17</div></div><div class='bottom'>🏠 📥 🔍 👤</div></div></div>
+<div class='phone'><div class='screen'><div class='notch'></div><div class='header'>Subscriptions</div><div class='card'>Netflix — ₹649/month</div><div class='card'>Spotify — ₹119/month</div><div class='card'>Prime — ₹1499/year</div><div class='bottom'>🏠 📥 🔍 👤</div></div></div>
+<div class='phone'><div class='screen'><div class='notch'></div><div class='header'>Memory Vault</div><div class='card'>Concert Ticket</div><div class='card'>Passport.pdf</div><div class='card'>Gift Ideas</div><div class='bottom'>🏠 📥 🔍 👤</div></div></div>
+<div class='phone'><div class='screen'><div class='notch'></div><div class='header'>Search</div><div class='search'>Search...</div><div class='card'>Sarah → Meeting</div><div class='card'>Netflix → Subscription</div><div class='bottom'>🏠 📥 🔍 👤</div></div></div>
+<div class='phone'><div class='screen'><div class='notch'></div><div class='header'>Profile</div><div class='card'>Capture Mode: Review Later</div><div class='card'>Notifications</div><div class='card'>Privacy</div><div class='bottom'>🏠 📥 🔍 👤</div></div></div>
+</div></body></html>
